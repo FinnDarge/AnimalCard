@@ -1,0 +1,52 @@
+/* I used articles from https://www.w3schools.com/ and the nanodegree lessons for reference */
+
+body {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+  position: relative;
+  padding-left: 10px;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  border: solid grey 1px;
+  padding: 8px 5px;
+  box-shadow: 5px 5px lightgrey;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.information {
+  width: 300px;
+  text-align: left;
+  border: solid grey 1px;
+  display: inline-block;
+  margin: 10px 0 15px 0;
+  padding: 3px 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 5px;
+}
+
+p {
+  padding: 0 5px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#fact {
+  font-style: italic;
+  padding: 0 5px;
+}
